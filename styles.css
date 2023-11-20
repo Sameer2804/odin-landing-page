@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
 html{
     font-family: 'Roboto', sans-serif;
 }
@@ -18,8 +17,10 @@ nav {
     padding: 15px 120px;
 } 
 
-img{
-    width: 70px;
+.header-logo{
+    font-size: 28px;
+    color: #F9FAF8;
+    font-weight: 700;
 }
 
 ul{
@@ -74,10 +75,129 @@ h1{
 .left-side button{
     background-color: #3882f6;
     color: white;
-    border-radius: 10px;
-    padding: 10px 30px;
+    border-radius: 5px;
+    padding: 6px 30px;
     border: none;
     font-size: 15px;
     margin-top: 10px;
-    font-weight: bold;
+    font-weight: 300;
+}
+
+.box-title{
+    font-size: 36px;
+    font-weight: 700;
+    color:#1F2937;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.section-two{
+    height: 400px;
+}
+
+.box-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.box{
+    height: 130px;
+    width: 130px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+}
+
+.caption{
+    color: rgb(88, 88, 88);
+}
+
+.section-three{
+    height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-quote{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    font-weight: 100;
+    width: 800px;
+
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.section-four{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.action-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    height: 135px;
+    width: 750px;
+    border-radius: 7px;
+    padding: 0 100px;
+}
+
+.action-text{
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+}
+
+.signup-text{
+    font-weight: 300;
+    color: white;
+}
+
+.action-right-side button{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 6px 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+footer{
+    background-color: #1F2937;
+    font-size: 16px;
+    color:#E5E7EB;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
